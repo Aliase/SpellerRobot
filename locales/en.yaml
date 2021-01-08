@@ -1,0 +1,13 @@
+start: |
+  <b>Hello, ${from.first_name}!</b>
+  
+  Send me a text and I'll check it for speller.
+
+  Developed by: @Shaymurzin
+  Hosting by: @Mifuru
+
+  Sources: https://github.com/aliase/SpellerRobot
+  Support to the developer: https://donate.mrzn.org
+
+noerror: No spelling errors found in the text!
+oops: Oops, something went wrong! 

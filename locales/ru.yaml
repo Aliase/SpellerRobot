@@ -1,0 +1,13 @@
+start: |
+  <b>Привет, ${from.first_name}!</b>
+  
+  Отправь мне текст, и я проверю его на наличие ошибок.
+
+  Разработал: @Shaymurzin
+  Поддерживает: @Mifuru
+
+  Исходники: https://github.com/aliase/SpellerRoBot
+  Поддержать разработчика: https://donate.mrzn.org
+
+noerror: Ошибок в тексте — <b>нет</b>!
+oops: Упc, что-то пошло не так!

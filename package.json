@@ -1,0 +1,21 @@
+{
+  "name": "speller_robot",
+  "description": "The Telegram bot for finding spelling errors in the text",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Danil Shaymurzin",
+    "email": "murka@aliase.net",
+    "url": "https://donate.mrzn.org"
+  },
+  "scripts": {
+    "build": "tsc",
+    "serve": "pm2 start ecosystem.config.js --env production"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "telegraf": "^3.38.0",
+    "telegraf-i18n": "^6.6.0"
+  }
+}
