@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: 'speller_robot',
+    name: 'SpellerRobot',
     script: './index.js',
     env_production: {
       NODE_ENV: "production",
